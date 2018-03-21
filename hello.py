@@ -4,7 +4,7 @@
 import MySQLdb
 
 def test():
-    sns = MySQLdb.connect("120.55.86.91", "root", "UO8EGk3Yms", "test")
+    sns = MySQLdb.connect("127.0.0.1", "root", "test", "test")
     cursor = sns.cursor()
     cursor.execute("select feed_id, uid from feed")
     results = cursor.fetchall()
