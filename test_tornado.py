@@ -6,6 +6,7 @@ __author__ = 'fang'
 import tornado.ioloop
 from tornado.httpclient import AsyncHTTPClient
 import functools
+import time
 
 def task(fun, url):
     return functools.partial(fun, url)

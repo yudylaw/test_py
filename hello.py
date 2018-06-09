@@ -28,9 +28,13 @@ def hello(age, *args, **kwargs):
         print k, v
 
 if __name__ == "__main__":
+    a = None
+    b = 0
+    if b == a:
+        print('ff')
     # print "hello main";
     # test();
     # hello(1, 'a', 2, 'b', old = 20, name = 'yudy')
     # args = [10, 'yudy']
-    kwargs = {'age':10, 'name':'yudy'}
-    hello2(**kwargs)
+    #kwargs = {'age':10, 'name':'yudy'}
+    #hello2(**kwargs)
